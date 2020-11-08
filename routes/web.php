@@ -12,5 +12,7 @@
 */
 
 Route::get('pro', 'ProductsController@products_show');
+Route::post('prostore', 'ProductsController@products_store');
 Route::get('pro/{product}', 'ProductsController@oneproduct');
 Route::get('categories', 'ProductsController@categories_show');
+Route::post('categoriesstore', 'ProductsController@categories_store');
