@@ -64,10 +64,10 @@ body {
 
 
 <div class="main">
-  <h2><span class="glyphicon glyphicon-menu-right"></span>&nbsp;Admin Accounts</h2>
+  <h2><span class="glyphicon glyphicon-menu-right"></span>&nbsp;Categories</h2>
   <ul class="breadcrumb">
     <li><a href="#">Home</a></li>
-    <li><a href="#">Categories</a></li>       
+    <li><a href="pro">Products</a></li>       
   </ul>
   
 
