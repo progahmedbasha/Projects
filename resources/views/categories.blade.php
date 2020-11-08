@@ -71,20 +71,20 @@ body {
   </ul>
   
 
-<form method="POST" action="teststore">
+  
+<form method="POST" action="categoriesstore">
   {{csrf_field() }}
   <fieldset>
     <legend>Personalia:</legend>
-    <label for="fname">First name:</label><br>
-    <input type="text" id="fname" name="name" ><br>
-    <label for="lname">Last name:</label><br>
-   <input type="text" id="fname" name="price" ><br>
-    <label for="lname">Last name:</label><br>
-   <input type="text" id="fname" name="type" ><br>
+    <label for="fname">category name:</label><br>
+    <input type="text" id="fname" name="title" ><br>
+    
+
   <button type="submit">add</button>
 
   </fieldset>
 </form>
+
 
 
   <table class="table table-bordered">
