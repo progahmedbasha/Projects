@@ -71,16 +71,26 @@ body {
   </ul>
   
 
-<form method="POST" action="teststore">
+<form method="POST" action="prostore">
   {{csrf_field() }}
   <fieldset>
     <legend>Personalia:</legend>
-    <label for="fname">First name:</label><br>
-    <input type="text" id="fname" name="name" ><br>
-    <label for="lname">Last name:</label><br>
-   <input type="text" id="fname" name="price" ><br>
-    <label for="lname">Last name:</label><br>
-   <input type="text" id="fname" name="type" ><br>
+    <label for="fname">product name:</label><br>
+    <input type="text" id="fname" name="product_name" ><br>
+    <label for="lname">price:</label><br>
+   <input type="text" id="fname" name="product_price" ><br>
+    <label for="lname">qty:</label><br>
+   <input type="text" id="fname" name="qty" ><br>
+   <label for="lname">category:</label><br>
+     <div class="form-group">
+    <!-- <input type="text" class="form-control" id="name" name="name"> -->
+    <select  name="category_id">
+      @foreach($x as $cat)
+        <option value="{{$cat->id}}">{{$cat->title}}</option>
+      @endforeach
+    </select>
+  </div>
+
   <button type="submit">add</button>
 
   </fieldset>
