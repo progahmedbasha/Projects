@@ -62,13 +62,13 @@ body {
 </head>
 <body>
 
-
 <div class="main">
-  <h2><span class="glyphicon glyphicon-menu-right"></span>&nbsp;Admin Accounts</h2>
+  <h2><span class="glyphicon glyphicon-menu-right"></span>&nbsp;Products</h2>
   <ul class="breadcrumb">
     <li><a href="#">Home</a></li>
-    <li><a href="#">Categories</a></li>       
+    <li><a href="categories">Categories</a></li>       
   </ul>
+  
   
 
 <form method="POST" action="prostore">
